@@ -50,7 +50,7 @@
         width: 100 vw;
     }
     .projects{
-        width: 100vw;
+        width: fit-content;
     }
     .google{
         gap:40px;
@@ -66,10 +66,10 @@
     }
     .my-projects{
         flex-direction: column;
-        width: 100vw;
+        width: fit-content;
     }
     .testimonial{
-        margin-left: 50px;
+        margin-left: 80px;
     }
     .testimonial-card{
         flex-direction: column;
@@ -77,6 +77,9 @@
     .last-part{
         display:flex;
         flex-direction: column;
+    }
+    .forms form{
+        margin-left: 80px;
     }
     .footer{
         width: 100vw;
