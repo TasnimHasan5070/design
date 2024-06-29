@@ -158,8 +158,12 @@ i{
      font-size: 16px;
      line-height: 24px;
 }
-.para h2{
+.passage h2{
     font-size: 38px;
+}
+.passage p{
+    font-size: 16px;
+     line-height: 24px;
 }
 .testimonial h1{
    font-weight: 800;

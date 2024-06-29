@@ -28,9 +28,8 @@
         gap:30px;
         flex-direction: column;
     }
-    .skills{
-        display: flex;
-        justify-content: center;
+    .skills h1{
+        margin-left: 60px;
     }
     .cards{
         grid-template-columns: auto auto;
@@ -39,7 +38,10 @@
     }
     .experience{
         margin-left: 80px;
-        width: 100vw;
+        width: fit-content;
+    }
+    .two-side{
+        width:fit-content
     }
     .about-me img{
         display: flex;
@@ -47,10 +49,7 @@
         margin-left: 50px;
     }
     .para{
-        width: 100 vw;
-    }
-    .projects{
-        width: fit-content;
+        width: 100vw;
     }
     .google{
         gap:40px;
@@ -62,10 +61,13 @@
         flex-direction: column;
     }
     .projects{
-        width:100vw;
+        width:fit-content;
     }
     .my-projects{
         flex-direction: column;
+        width: fit-content;
+    }
+    .passage{
         width: fit-content;
     }
     .testimonial{
